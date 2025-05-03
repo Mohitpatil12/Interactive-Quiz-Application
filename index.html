@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <h1>Interactive Quiz</h1>
+            <p>Test your knowledge with these multiple-choice questions</p>
+        </div>
+        
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+        </div>
+        
+        <div id="quiz-content" style="display: none;">
+            <div class="quiz-status">
+                <div class="status-item">Question <span id="current-question">1</span>/<span id="total-questions">10</span></div>
+                <div class="status-item">Score: <span id="score">0</span></div>
+            </div>
+            
+            <div class="question-container">
+                <div id="question" class="question">Question text goes here?</div>
+                <div id="options" class="options">
+                    <!-- Options will be added dynamically -->
+                </div>
+                
+                <div id="feedback" class="feedback">
+                    <h3>Feedback title</h3>
+                    <p id="feedback-text">Feedback explanation goes here</p>
+                </div>
+            </div>
+            
+            <div class="nav-buttons">
+                <button id="prev-btn" class="btn btn-secondary btn-disabled">Previous</button>
+                <button id="next-btn" class="btn btn-primary btn-disabled">Next</button>
+            </div>
+        </div>
+        
+        <div id="results" class="results-container">
+            <h2 class="quiz-header">Quiz Completed!</h2>
+            
+            <div class="score-circle">
+                <div id="final-score" class="score-text">80%</div>
+                <div class="score-label">Score</div>
+            </div>
+            
+            <p id="results-message" class="results-message">Great job! You've done well on this quiz.</p>
+            
+            <div class="results-stats">
+                <div class="stat-card">
+                    <div id="correct-answers" class="stat-value">8</div>
+                    <div class="stat-label">Correct</div>
+                </div>
+                <div class="stat-card">
+                    <div id="incorrect-answers" class="stat-value">2</div>
+                    <div class="stat-label">Incorrect</div>
+                </div>
+                <div class="stat-card">
+                    <div id="completion-time" class="stat-value">2:30</div>
+                    <div class="stat-label">Time</div>
+                </div>
+            </div>
+            
+            <button id="restart-btn" class="btn btn-primary">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+    </html>
+        
+        
