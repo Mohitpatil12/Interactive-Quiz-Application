@@ -60,9 +60,8 @@ A simple yet interactive Quiz Application built using pure HTML, CSS, and JavaSc
 ## 📬 Contact
 
 If you have any feedback or ideas, feel free to reach out!  
-GitHub: https://github.com/Homeless01  
-LinkedIn: www.linkedin.com/in/aniket-soni01
-
+GitHub: https://github.com/Mohitpatil12
+LinkedIn: www.linkedin.com/in/mohit-patil-1b7a07262
 ---
 
 ⭐️ *If you liked this project, give it a star on GitHub. It motivates me to build more!*
