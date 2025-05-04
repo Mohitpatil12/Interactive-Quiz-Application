@@ -54,6 +54,8 @@ A simple yet interactive Quiz Application built using pure HTML, CSS, and JavaSc
 ---
 ## Screeenshot 
 
+![Image](https://github.com/user-attachments/assets/6ce84bdb-3aae-4e4a-add7-5f113bed2ca9)
+
 
 ## 📬 Contact
 
